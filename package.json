@@ -1,0 +1,27 @@
+{
+  "name": "warp-drive",
+  "version": "0.0.1",
+  "description": "framework for building pages and user journeys",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Robson",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "source-map-loader": "^0.2.4",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.1"
+  }
+}
